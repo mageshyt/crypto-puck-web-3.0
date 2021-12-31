@@ -16,6 +16,11 @@ body {
     @apply flex items-center justify-center;
   }
   .card-animation {
-    @apply hover:scale-110 transition-all transform duration-200 ease-linear;
+    @apply hover:scale-105 transition-all transform duration-200 ease-linear;
+  }
+  .circle {
+    @apply rounded-full border-white border-2 h-[50px] 
+    w-[50px]
+    p-[12px];
   }
 }

@@ -4,7 +4,7 @@ import EthLogo from "../assets/weth.png";
 const CollectionCard = ({ name, image, id, traits }) => {
   return (
     <div
-      className="collectionsCard card-animation h-[400px] md:h-[400px] mr-5 mt-5
+      className="overflow-none collectionsCard card-animation h-[400px] md:h-[400px] mr-5 mt-5
     relative  bg-[#1a1c1e] rounded-xl  w-[300px] text-white "
     >
       <img
@@ -24,8 +24,8 @@ const CollectionCard = ({ name, image, id, traits }) => {
           <div className="text-lg text-gray-500 font-semibold">•#{id}</div>
         </div>
         {/* Price */}
-        <div className="price flex space-x-2 items-center  font-bold mt-3 object-contain">
-          <img src={EthLogo} alt="" className="h-[25px] w-[15px]" />
+        <div className="price flex space-x-2 items-center  font-bold mt-1 object-contain">
+          <img src={EthLogo} alt="" className="h-[20px] w-[15px]" />
           <span>{traits[0].value}</span>
         </div>
       </div>

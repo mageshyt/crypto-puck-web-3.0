@@ -1,0 +1,12 @@
+.selectedPuck {
+  /* object-fit: contain; */
+  max-width: min(30vw, 30vh);
+  max-height: 300px;
+  height: 300px;
+}
+.puckDetails {
+  flex: 0.75;
+}
+.puckHighlighter {
+  flex: 0.25;
+}
